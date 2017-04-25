@@ -74,17 +74,14 @@ addListButton.addEventListener("click", function(e) {
 });
 
 // ADDING TO LIST ITEMS
-addItemButton.addEventListener("click", function(e) {
-  e.preventDefault();
-  var currentList = listArray[selectedList];
-  var itemArray = currentList.items;
+
 
   // HOMEWORK
   // - get the input value in a variable
   // - check if the input value is more than 2 characters
   // - add it into listItemArray
   // - update listItem div
-});
+};
 
 // POP-UP HANDLING CODE
 var buttonsArray = document.querySelectorAll(".popup-button");
